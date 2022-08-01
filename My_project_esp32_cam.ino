@@ -27,7 +27,7 @@ String BOTtoken = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";  // your Bot Toke
 // message you
 String USER_ID = "1148159071";
 
-// Change the following parameters with your credentials
+// Change the following parameters with your credentials.
 
 #define emailSenderAccount    "XXXXXXXX@gmail.com"
 #define emailSenderPassword   "XXXXXXXXX"
@@ -72,7 +72,7 @@ unsigned long lastTimeBotRan;
 #define HREF_GPIO_NUM     23
 #define PCLK_GPIO_NUM     22
 
-
+// Add configurations.
 void configInitCamera(){
   camera_config_t config;
   config.ledc_channel = LEDC_CHANNEL_0;
