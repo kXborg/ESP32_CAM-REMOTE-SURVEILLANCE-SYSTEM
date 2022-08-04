@@ -14,6 +14,8 @@
 #include <SPIFFS.h>
 
 const char* host = "esp32";
+
+// Add WiFi Credentials below.
 const char* ssid = "XXXXXXXXXX";
 const char* password = "XXXXXXXXXX";
 
